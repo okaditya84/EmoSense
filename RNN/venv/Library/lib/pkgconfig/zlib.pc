@@ -1,0 +1,13 @@
+prefix=C:/Aditya/College Code/Internship assignment/RNN/venv/Library
+exec_prefix=C:/Aditya/College Code/Internship assignment/RNN/venv/Library
+libdir=C:/Aditya/College Code/Internship assignment/RNN/venv/Library/lib
+sharedlibdir=C:/Aditya/College Code/Internship assignment/RNN/venv/Library/lib
+includedir=C:/Aditya/College Code/Internship assignment/RNN/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

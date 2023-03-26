@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analysis</title>
+</head>
+<body>
+    <h1>Sentiment Analysis</h1>
+    <form method="POST" action="/predict">
+        <textarea name="text"></textarea><br><br>
+        <input type="submit" value="Predict">
+    </form>
+    {% if prediction is not none %}
+    <p>Prediction: {{ prediction }} ({{ confidence }})</p>
+    {% endif %}
+</body>
+</html>
